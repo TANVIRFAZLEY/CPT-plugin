@@ -71,7 +71,7 @@ function cpt_custom_post_type() {
 
 	//Chapter
 	register_post_type('Chapters',
-		// CPT Options
+		// CPT
 		array(
 			'labels' => array(
 				'name' => __('Chapters'),
